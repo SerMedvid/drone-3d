@@ -28,7 +28,7 @@ const Player = () => {
 
 				<Cameras cameraDataUrl="/footage-test/Cameras.xml" />
 
-				<Perf />
+				<Perf position="bottom-left" />
 			</Canvas>
 			<FocusButton />
 		</>

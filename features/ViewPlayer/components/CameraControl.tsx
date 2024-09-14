@@ -20,7 +20,11 @@ export default function CameraControl() {
 
 	return (
 		<>
-			<CameraControls ref={controlsRef} />
+			<CameraControls
+				ref={controlsRef}
+				minPolarAngle={0}
+				maxPolarAngle={Math.PI / 2}
+			/>
 		</>
 	);
 }
